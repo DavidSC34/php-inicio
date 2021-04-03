@@ -6,17 +6,13 @@ include 'includes/header.php';
 
 function sumar(int $numero1 = 0, int  $numero2 = 0)
 {
+    echo  $numero1;
     echo $numero1 + $numero2;
 }
 
-sumar(10, 20);
-echo "<br>";
+sumar(numero2: 10, numero1: 20);
+sumar(numero1: 10, numero2: 20);
 
-sumar(1, 20);
-echo "<br>";
-
-sumar(100, 30);
-echo "<br>";
 
 
 include 'includes/footer.php';
